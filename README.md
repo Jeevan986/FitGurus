@@ -13,7 +13,7 @@ The FitGuru app is an all that displays Guru's workout plan and diet plan for a 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category: Heatlh and fitness**
-- **Mobile: IOS **
+- **Mobile: IOS**
 - **Story: **
 - **Market: **
 - **Habit: Constant flow of new plans will drive consumers to constantly come back **
@@ -25,13 +25,13 @@ The FitGuru app is an all that displays Guru's workout plan and diet plan for a 
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+- [] Users can view various workout plans and diet plans.
+- [] Users can purchase plans from various Fitness Gurus. 
+- [] Users can create different workout plans and diet plans.
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+- [] Users can rate the fitness gurus.
 
 ### 2. Screen Archetypes
 
