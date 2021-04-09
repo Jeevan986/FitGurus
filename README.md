@@ -32,6 +32,7 @@ The FitGuru app is an all that displays Guru's workout plan and diet plan for a 
 **Optional Nice-to-have Stories**
 
 - [] Users can rate the fitness gurus.
+- [] The home screen will be sorted based on the fitness gurus ratings.
 
 ### 2. Screen Archetypes
 
