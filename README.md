@@ -8,7 +8,7 @@
 
 ## Overview
 ### Description
-[Description of your app]
+The FitGuru app is an all that displays Guru's workout plan and diet plan for a set price set by the Guru's for the consumers using the app. 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
