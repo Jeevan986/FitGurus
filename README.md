@@ -16,7 +16,7 @@ The FitGuru app is an all that displays Guru's workout plan and diet plan for a 
 - **Mobile: IOS**
 - **Story: **
 - **Market: **
-- **Habit: Constant flow of new plans will drive consumers to constantly come back **
+- **Habit: Constant flow of new plans will drive consumers to constantly come back**
 - **Scope: Health enthusiast (18+)**
 
 ## Product Spec
