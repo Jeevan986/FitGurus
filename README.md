@@ -38,77 +38,76 @@ This app allows fitness gurus to post workout and diet plans that users can purc
 
 ### 2. Screen Archetypes
 
-* [Login]
-   * [User can signin]
-   * [User can choose to signup]
+* Login
+   * User can signin
+   * User can choose to signup
    
-* [Signup]
-   * [User can enter their info]
-   * [User can choose their type either, fitness enthusiasts or fitness gurus]
-   * [User can signup]
+* Signup
+   * User can enter their info
+   * User can choose their type either, fitness enthusiasts or fitness gurus
+   * User can signup
    
-* [Home]
-   * [Users can see various workout and diet plans]
-   * [Users can view anyone of them in detail by clicking them]
-   * [Users will have the option to view their own profile]
-   * [Users will have the option to view the plans they have purchased]
-   * [Only fitness gurus will have an additional option to make a plan]
+* Home
+   * Users can see various workout and diet plans
+   * Users can view anyone of them in detail by clicking them
+   * Users will have the option to view their own profile
+   * Users will have the option to view the plans they have purchased
+   * Only fitness gurus will have an additional option to make a plan
 
-* [Purchased plans]
-   * [Users can view the list of plans they have purchased]
-   * [Users can view anyone of them in detail by clicking them]
+* Purchased plans
+   * Users can view the list of plans they have purchased
+   * Users can view anyone of them in detail by clicking them
 
-* [Plan details]
-   * [Users can view seleted plans in detail]
+* Plan details
+   * Users can view seleted plans in detail
   
-* [Make Plan (only for fitness gurus)]
-   * [Fitness gurus can create a new workout or diet plan]
-   * [Fitness gurus can set their own price for their plans]
-   * [Fitness gurus can publish their plans for all the users]
+* Make Plan (only for fitness gurus)
+   * Fitness gurus can create a new workout or diet plan
+   * Fitness gurus can set their own price for their plans
+   * Fitness gurus can publish their plans for all the users
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [Home]
-* [Profile]
-* [View Plans]
-* [Purchased Plans]
-* [Make Plan]
+* Home
+* Profile
+* View Plans
+* Purchased Plans
+* Make Plan
 
 **Flow Navigation** (Screen to Screen)
 
-* [Login]
-   * [Goes to home screen if signined with correct information]
-   * [Goes to signup screen if signup button is pressed]
+* Login
+   * Goes to home screen if signined with correct information
+   * Goes to signup screen if signup button is pressed
 
-* [Signup]
-   * [Goes to home screen when all the infomation is filled]
+* Signup
+   * Goes to home screen when all the infomation is filled
   
-* [Home]
-   * [Goes to profile if pofile button is pressed]
-   * [Goes to purchased plans screen if purchased plans button is pressed]
-   * [If Fitness guru, goes to make plans screen if make plans button is pressed]
-   * [Stays in home screen if view plans button is pressed]
+* Home
+   * Goes to profile if pofile button is pressed
+   * Goes to purchased plans screen if purchased plans button is pressed
+   * If Fitness guru, goes to make plans screen if make plans button is pressed
+   * Stays in home screen if view plans button is pressed
    
-* [Purchased plans]
-   * [Goes to profile if pofile button is pressed]
-   * [Goes to home screen if view plans button is pressed]
-   * [If fitness guru, goes to make plans screen if make plans button is pressed]
-   * [Stays in purchased plans screen if purchased plans button is pressed]
+* Purchased plans
+   * Goes to profile if pofile button is pressed
+   * Goes to home screen if view plans button is pressed
+   * If fitness guru, goes to make plans screen if make plans button is pressed
+   * Stays in purchased plans screen if purchased plans button is pressed
  
- * [Plan details]
-   * [Goes to profile if pofile button is pressed]
-   * [Goes to home screen if view plans button is pressed]
-   * [If fitness guru, goes to make plans screen if make plans button is pressed]
-   * [Goes to purchased plans screen if purchased plans button is pressed]
+ * Plan details
+   * Goes to profile if pofile button is pressed
+   * Goes to home screen if view plans button is pressed
+   * If fitness guru, goes to make plans screen if make plans button is pressed
+   * Goes to purchased plans screen if purchased plans button is pressed
   
-* [Make plan (only for fitness gurus)]
-   * [Publishes the plan and goes to home screen if publish button is pressed]
-   * [Goes back to home screen if home button is pressed]
+* Make plan (only for fitness gurus)
+   * Publishes the plan and goes to home screen if publish button is pressed
+   * Goes back to home screen if home button is pressed
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 <img src="FitGuru wireframe-2.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
