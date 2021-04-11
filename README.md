@@ -62,7 +62,7 @@ The FitGuru app is an all that displays Guru's workout plan and diet plan for a 
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="FitGuru wireframe-2.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
