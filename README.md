@@ -100,7 +100,7 @@ This app allows fitness gurus to post workout and diet plans that users can purc
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="FitGuru wireframe-2.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
