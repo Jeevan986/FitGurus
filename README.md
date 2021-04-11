@@ -57,7 +57,10 @@ This app allows fitness gurus to post workout and diet plans that users can purc
 * [Purchased plans]
    * [Users can view the list of plans they have purchased]
    * [Users can view anyone of them in detail by clicking them]
-   
+
+* [Plan details]
+   * [Users can view seleted plans in detail]
+  
 * [Make Plan (only for fitness gurus)]
    * [Fitness gurus can create a new workout or diet plan]
    * [Fitness gurus can set their own price for their plans]
@@ -93,6 +96,12 @@ This app allows fitness gurus to post workout and diet plans that users can purc
    * [Goes to home screen if view plans button is pressed]
    * [If fitness guru, goes to make plans screen if make plans button is pressed]
    * [Stays in purchased plans screen if purchased plans button is pressed]
+ 
+ * [Plan details]
+   * [Goes to profile if pofile button is pressed]
+   * [Goes to home screen if view plans button is pressed]
+   * [If fitness guru, goes to make plans screen if make plans button is pressed]
+   * [Goes to purchased plans screen if purchased plans button is pressed]
   
 * [Make plan (only for fitness gurus)]
    * [Publishes the plan and goes to home screen if publish button is pressed]
