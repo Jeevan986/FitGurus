@@ -115,9 +115,27 @@ This app allows fitness gurus to post workout and diet plans that users can purc
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+Plans
+|Property|Type|Description|
+|--------|----|-----------|
+|objectId|String|unique id for each Guru's workout plan|
+|author|points to user|displays authors username|
+|rating|Number|average rating given for a Guru's plan|
+|description|String|Description given by Guru for their plan|
+|title|String|Title of each plan|
+|price|String|price of each plan|
+
+Purchased Plans
+|Property|Type|Description|
+|--------|----|-----------|
+|objectId|String|Unique id for each Guru's workout plan|
+|author|points to user|Displays authors username|
+|rating|Number|Average rating given for a Guru's plan|
+|description|String|Description given by Guru for their plan|
+|title|String|Title of each plan|
+|delete|String|Deletes purchased plan|
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
