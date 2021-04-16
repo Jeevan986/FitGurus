@@ -137,6 +137,22 @@ Purchased Plans
 |delete|String|Deletes purchased plan|
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+**Home Feed Screen**
+
+  * (Read/GET) Query all posts which an user can buy
+  * (Buy/GET) User can buy listed plans
+  * (Rate/POST) User will be able to rate a plan
+  * (DELETE) Delete existing rating
+
+**Create Plan Screen**
+
+  * (Create/POST) Guru can post new plan which appear in Home Feed.
+
+**Profile Screen**
+
+  * (Read/GET) Query logged in user object/plans
+  * (Update/PUT) Update list of plans or profile image
+  
+  
+  
