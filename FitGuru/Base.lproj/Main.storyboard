@@ -123,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qpR-9V-d8o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="767" y="1535"/>
+            <point key="canvasLocation" x="767" y="2300"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="cZM-a5-oMX">
@@ -134,7 +134,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="odz-Ok-9gM">
-                                <rect key="frame" x="40" y="40" width="334" height="560.5"/>
+                                <rect key="frame" x="40" y="40" width="334" height="620.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1t7-wz-DM8">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
@@ -171,20 +171,37 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xgP-PP-7xz">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bds-pV-h6c">
                                         <rect key="frame" x="0.0" y="420" width="334" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URZ-Sq-m7j">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="8cJ-iq-Xha"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.60739151550000003" green="0.60739151550000003" blue="0.60739151550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Sex"/>
+                                        <connections>
+                                            <action selector="onClickSex:" destination="xJD-7b-UIc" eventType="touchUpInside" id="Im8-xH-9Yx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKk-FH-TlO">
                                         <rect key="frame" x="0.0" y="480" width="334" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="FOW-vJ-WdP"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.60739151550000003" green="0.60739151550000003" blue="0.60739151550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title=" Type"/>
+                                        <connections>
+                                            <action selector="onClickMemberType:" destination="xJD-7b-UIc" eventType="touchUpInside" id="tyN-Du-90T"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URZ-Sq-m7j">
+                                        <rect key="frame" x="0.0" y="540" width="334" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="odn-hQ-vBw"/>
                                         </constraints>
                                         <state key="normal" title="Sign Up"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCN-1T-pA8">
-                                        <rect key="frame" x="0.0" y="540" width="334" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="600" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor"/>
                                         <nil key="highlightedColor"/>
@@ -194,7 +211,6 @@
                                     <constraint firstItem="3DL-je-9F2" firstAttribute="height" secondItem="1t7-wz-DM8" secondAttribute="height" id="7LL-oj-iY6"/>
                                     <constraint firstItem="Hgw-ze-06T" firstAttribute="height" secondItem="1t7-wz-DM8" secondAttribute="height" id="HWA-gm-3Dq"/>
                                     <constraint firstItem="da6-yY-myn" firstAttribute="height" secondItem="1t7-wz-DM8" secondAttribute="height" id="MVY-8f-FMa"/>
-                                    <constraint firstItem="xgP-PP-7xz" firstAttribute="height" secondItem="1t7-wz-DM8" secondAttribute="height" id="VOO-do-HbF"/>
                                     <constraint firstItem="Iut-Et-69J" firstAttribute="height" secondItem="1t7-wz-DM8" secondAttribute="height" id="m9h-yS-jRH"/>
                                     <constraint firstItem="URZ-Sq-m7j" firstAttribute="height" secondItem="1t7-wz-DM8" secondAttribute="height" id="pdd-AX-N4e"/>
                                     <constraint firstItem="2Tn-Az-2Wl" firstAttribute="height" secondItem="1t7-wz-DM8" secondAttribute="height" id="sz5-up-nEu"/>
@@ -210,6 +226,18 @@
                             <constraint firstItem="odz-Ok-9gM" firstAttribute="top" secondItem="zHw-iu-IaH" secondAttribute="top" constant="40" id="wWY-7m-O8W"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnMemberType" destination="tKk-FH-TlO" id="Mn0-mQ-I7j"/>
+                        <outlet property="btnSex" destination="Bds-pV-h6c" id="vLf-UY-cqQ"/>
+                        <outlet property="emailTextField" destination="e1V-SC-xQF" id="3gv-fJ-TlQ"/>
+                        <outlet property="errorTextField" destination="PCN-1T-pA8" id="O3r-sk-bK7"/>
+                        <outlet property="firstNameTextField" destination="1t7-wz-DM8" id="87S-LG-VTr"/>
+                        <outlet property="heightTextField" destination="da6-yY-myn" id="eho-vm-UAD"/>
+                        <outlet property="lastNameTextField" destination="3DL-je-9F2" id="4XA-wm-VKd"/>
+                        <outlet property="passwordTextField" destination="Iut-Et-69J" id="hGM-f6-u7x"/>
+                        <outlet property="phoneNumberTextField" destination="2Tn-Az-2Wl" id="FpR-BF-DpF"/>
+                        <outlet property="weightTextField" destination="Hgw-ze-06T" id="LSI-3E-bGV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dmw-Fo-sYX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
