@@ -153,6 +153,8 @@ Purchased Plans
 
   * (Read/GET) Query logged in user object/plans
   * (Update/PUT) Update list of plans or profile image
+
+# FitGuru - Part I
   
   ## User Stories
 
