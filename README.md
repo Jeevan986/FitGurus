@@ -25,7 +25,7 @@ This app allows fitness gurus to post workout and diet plans that users can purc
 
 **Required Must-have Stories**
 
-- [ ] Users can login, logout and signup (either as a fitness enthusiast or a fitness guru)
+- [x] Users can login, logout and signup (either as a fitness enthusiast or a fitness guru)
 - [ ] Users can view various workout plans and diet plans.
 - [ ] Users can purchase plans from various Fitness Gurus.
 - [ ] Users can view the plans they have purchased. 
@@ -153,6 +153,25 @@ Purchased Plans
 
   * (Read/GET) Query logged in user object/plans
   * (Update/PUT) Update list of plans or profile image
+
+# FitGuru - Part I
   
+  ## User Stories
+
+The following **required** functionality is completed:
+
+- [ ] User sees app icon in home screen and styled launch screen. 
+- [x] User can log in. 
+- [x] User can sign up.
+- [ ] User can log out. 
+- [ ] User stays logged in across restarts. 
+- [ ] User can view diet and workout plans with the user profile picture, username, and plan text. 
+
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/H46dJ5EeMj.gif' width=300><br>
   
   
