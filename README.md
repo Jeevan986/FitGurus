@@ -160,12 +160,8 @@ Purchased Plans
 
 The following **required** functionality is completed:
 
-- [ ] User sees app icon in home screen and styled launch screen. 
 - [x] User can log in. 
 - [x] User can sign up.
-- [ ] User can log out. 
-- [ ] User stays logged in across restarts. 
-- [ ] User can view diet and workout plans with the user profile picture, username, and plan text. 
 
 
 ## Video Walkthrough
@@ -173,5 +169,14 @@ The following **required** functionality is completed:
 Here's a walkthrough of implemented user stories:
 
 <img src='http://g.recordit.co/H46dJ5EeMj.gif' width=300><br>
+
+# FitGuru - Part II
   
+  ## User Stories
   
+  - [x] User sees app icon in home screen and styled launch screen. 
+  - [x] User can log out. 
+  - [x] User stays logged in across restarts.
+ 
+ <img src='http://g.recordit.co/0RCNY7csCS.gif' width=300><br>
+
