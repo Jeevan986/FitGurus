@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FB720BF2644B2CB007BE90D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB720BE2644B2CB007BE90D /* FirstViewController.swift */; };
 		69B116C4BB8E95FE27D13F36 /* Pods_FitGuru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26548CFEDCCD8D384010F4D5 /* Pods_FitGuru.framework */; };
 		895FA2D815C3D98AC0DB7508 /* Pods_FitGuru_FitGuruUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6BFE70952BBF270A055E72 /* Pods_FitGuru_FitGuruUITests.framework */; };
 		E1E268532B01F321850203A7 /* Pods_FitGuruTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55093A8433A1C71C8B59CA6 /* Pods_FitGuruTests.framework */; };
@@ -15,7 +16,6 @@
 		EF31888B262E3AB400996235 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF31888A262E3AB400996235 /* SignUpViewController.swift */; };
 		EFEEA70C262BDBB200308B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEEA70B262BDBB200308B37 /* AppDelegate.swift */; };
 		EFEEA70E262BDBB200308B37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEEA70D262BDBB200308B37 /* SceneDelegate.swift */; };
-		EFEEA710262BDBB200308B37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEEA70F262BDBB200308B37 /* ViewController.swift */; };
 		EFEEA713262BDBB200308B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEEA711262BDBB200308B37 /* Main.storyboard */; };
 		EFEEA715262BDBB600308B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEEA714262BDBB600308B37 /* Assets.xcassets */; };
 		EFEEA718262BDBB600308B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEEA716262BDBB600308B37 /* LaunchScreen.storyboard */; };
@@ -42,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		0A6BFE70952BBF270A055E72 /* Pods_FitGuru_FitGuruUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitGuru_FitGuruUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB720BE2644B2CB007BE90D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		1276B44B2C83334ED6F905A9 /* Pods-FitGuru-FitGuruUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitGuru-FitGuruUITests.release.xcconfig"; path = "Target Support Files/Pods-FitGuru-FitGuruUITests/Pods-FitGuru-FitGuruUITests.release.xcconfig"; sourceTree = "<group>"; };
 		26548CFEDCCD8D384010F4D5 /* Pods_FitGuru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitGuru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		814F4F1612A759D4B42229A0 /* Pods-FitGuru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitGuru.release.xcconfig"; path = "Target Support Files/Pods-FitGuru/Pods-FitGuru.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		EFEEA708262BDBB200308B37 /* FitGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEEA70B262BDBB200308B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFEEA70D262BDBB200308B37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFEEA70F262BDBB200308B37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFEEA712262BDBB200308B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFEEA714262BDBB600308B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFEEA717262BDBB600308B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -123,8 +123,8 @@
 		EF318883262E395E00996235 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0FB720BE2644B2CB007BE90D /* FirstViewController.swift */,
 				EF31888A262E3AB400996235 /* SignUpViewController.swift */,
-				EFEEA70F262BDBB200308B37 /* ViewController.swift */,
 				EF318879262E393C00996235 /* LoginViewController.swift */,
 				EF31887E262E395200996235 /* HomeViewController.swift */,
 			);
@@ -424,9 +424,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF31888B262E3AB400996235 /* SignUpViewController.swift in Sources */,
-				EFEEA710262BDBB200308B37 /* ViewController.swift in Sources */,
 				EFEEA70C262BDBB200308B37 /* AppDelegate.swift in Sources */,
 				EF31887A262E393C00996235 /* LoginViewController.swift in Sources */,
+				0FB720BF2644B2CB007BE90D /* FirstViewController.swift in Sources */,
 				EFEEA70E262BDBB200308B37 /* SceneDelegate.swift in Sources */,
 				EF31887F262E395200996235 /* HomeViewController.swift in Sources */,
 			);
