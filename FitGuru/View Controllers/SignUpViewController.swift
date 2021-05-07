@@ -7,6 +7,8 @@
 
 import UIKit
 import DropDown
+import Parse
+
 
 class CellClass: UITableViewCell{
     
@@ -16,14 +18,15 @@ class SignUpViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
-    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var usernameTextField: UITextField!
+    
     @IBOutlet weak var phoneNumberTextField: UITextField!
     @IBOutlet weak var heightTextField: UITextField!
     @IBOutlet weak var weightTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var btnSex: UIButton!
     @IBOutlet weak var btnMemberType: UIButton!
-    @IBOutlet weak var errorTextField: UILabel!
+    
     
     let transparentView = UIView()
     let tableView = UITableView()
@@ -38,6 +41,35 @@ class SignUpViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
         // Do any additional setup after loading the view.
     }
+    
+  
+    
+    
+    
+    @IBAction func onSignUp(_ sender: Any) {
+        let user = PFUser()
+        user.username = usernameTextField.text
+        user.password = passwordTextField.text
+        
+        user["firstName"] = firstNameTextField.text
+        user["lastName"] = lastNameTextField.text
+        user["phone"] = phoneNumberTextField.text
+        user["height"] = heightTextField.text
+        user["weight"] = weightTextField.text
+        user["sex"] = "Male"
+
+        user["type"] = "customer"
+    
+        user.signUpInBackground { (success, error) in
+            if success {
+                self.performSegue(withIdentifier: "signupSegue", sender: nil)
+            } else {
+                print("Error: \(String(describing: error?.localizedDescription))")
+            }
+        }
+    }
+    
+    
     
 
     /*
@@ -111,6 +143,12 @@ class SignUpViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         selectedButton.setTitle(dataSource[indexPath.row], for: .normal)
         removeTranparentView()
+    }
+    @IBAction func returnButton(_ sender: Any) {
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let firstViewController = main.instantiateViewController(identifier: "FirstViewController")
+        let delegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+        delegate.window?.rootViewController = firstViewController
     }
     
 }

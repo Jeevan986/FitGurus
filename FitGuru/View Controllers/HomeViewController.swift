@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class HomeViewController: UIViewController {
 
@@ -26,4 +27,14 @@ class HomeViewController: UIViewController {
     }
     */
 
+    @IBAction func onLogoutButton(_ sender: Any) {
+        
+        PFUser.logOut()
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let firstViewController = main.instantiateViewController(identifier: "FirstViewController")
+        let delegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+        delegate.window?.rootViewController = firstViewController
+    }
+    
+    
 }
