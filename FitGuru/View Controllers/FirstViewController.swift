@@ -1,30 +1,19 @@
 //
-//  HomeViewController.swift
+//  FirstViewController.swift
 //  FitGuru
 //
-//  Created by Anthony Campana on 4/19/21.
+//  Created by Furlhamu Sherpa on 5/9/21.
 //
 
 import UIKit
-import Parse
 
-class HomeViewController: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-    @IBAction func onLogout(_ sender: Any) {
-    
-        PFUser.logOut()
-        let main = UIStoryboard(name: "Main", bundle: nil)
-        let firstViewController = main.instantiateViewController(identifier: "FirstViewController")
-        let delegate = self.view.window?.windowScene?.delegate as! SceneDelegate
-        delegate.window?.rootViewController = firstViewController
-    }
-    
     
 
     /*
