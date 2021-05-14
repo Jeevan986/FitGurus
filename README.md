@@ -180,3 +180,12 @@ Here's a walkthrough of implemented user stories:
  
  <img src='http://g.recordit.co/0RCNY7csCS.gif' width=300><br>
 
+# FitGuru - Part III
+  
+  ## User Stories
+  
+  - [x] Users can view various workout plans and diet plans.
+  - [X] Fit Gurus can create plans
+ 
+ <img src='http://g.recordit.co/AZe7JPd4e8.gif' width=300><br>
+
