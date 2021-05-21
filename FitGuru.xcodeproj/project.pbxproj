@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FB720BF2644B2CB007BE90D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB720BE2644B2CB007BE90D /* FirstViewController.swift */; };
+		0F27D7A5264DFE51009FADDF /* PurchasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27D7A4264DFE51009FADDF /* PurchasedViewController.swift */; };
+		0F27D7AA264DFE62009FADDF /* MakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27D7A9264DFE62009FADDF /* MakeViewController.swift */; };
+		0F27D7AF264E1C57009FADDF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27D7AE264E1C57009FADDF /* PostCell.swift */; };
+		0F27D7B7264E1DAD009FADDF /* PlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27D7B6264E1DAD009FADDF /* PlansViewController.swift */; };
+		0F98568726483B150085C8AD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F98568626483B150085C8AD /* FirstViewController.swift */; };
 		69B116C4BB8E95FE27D13F36 /* Pods_FitGuru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26548CFEDCCD8D384010F4D5 /* Pods_FitGuru.framework */; };
 		895FA2D815C3D98AC0DB7508 /* Pods_FitGuru_FitGuruUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6BFE70952BBF270A055E72 /* Pods_FitGuru_FitGuruUITests.framework */; };
 		E1E268532B01F321850203A7 /* Pods_FitGuruTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55093A8433A1C71C8B59CA6 /* Pods_FitGuruTests.framework */; };
 		EF31887A262E393C00996235 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF318879262E393C00996235 /* LoginViewController.swift */; };
-		EF31887F262E395200996235 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF31887E262E395200996235 /* HomeViewController.swift */; };
 		EF31888B262E3AB400996235 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF31888A262E3AB400996235 /* SignUpViewController.swift */; };
 		EFEEA70C262BDBB200308B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEEA70B262BDBB200308B37 /* AppDelegate.swift */; };
 		EFEEA70E262BDBB200308B37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEEA70D262BDBB200308B37 /* SceneDelegate.swift */; };
@@ -42,7 +45,11 @@
 
 /* Begin PBXFileReference section */
 		0A6BFE70952BBF270A055E72 /* Pods_FitGuru_FitGuruUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitGuru_FitGuruUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FB720BE2644B2CB007BE90D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0F27D7A4264DFE51009FADDF /* PurchasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedViewController.swift; sourceTree = "<group>"; };
+		0F27D7A9264DFE62009FADDF /* MakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeViewController.swift; sourceTree = "<group>"; };
+		0F27D7AE264E1C57009FADDF /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		0F27D7B6264E1DAD009FADDF /* PlansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansViewController.swift; sourceTree = "<group>"; };
+		0F98568626483B150085C8AD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		1276B44B2C83334ED6F905A9 /* Pods-FitGuru-FitGuruUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitGuru-FitGuruUITests.release.xcconfig"; path = "Target Support Files/Pods-FitGuru-FitGuruUITests/Pods-FitGuru-FitGuruUITests.release.xcconfig"; sourceTree = "<group>"; };
 		26548CFEDCCD8D384010F4D5 /* Pods_FitGuru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitGuru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		814F4F1612A759D4B42229A0 /* Pods-FitGuru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitGuru.release.xcconfig"; path = "Target Support Files/Pods-FitGuru/Pods-FitGuru.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,7 +58,6 @@
 		D7C60644570B067A90A029DF /* Pods-FitGuru-FitGuruUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitGuru-FitGuruUITests.debug.xcconfig"; path = "Target Support Files/Pods-FitGuru-FitGuruUITests/Pods-FitGuru-FitGuruUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBB36F24886E45E49D4D127B /* Pods-FitGuru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitGuru.debug.xcconfig"; path = "Target Support Files/Pods-FitGuru/Pods-FitGuru.debug.xcconfig"; sourceTree = "<group>"; };
 		EF318879262E393C00996235 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		EF31887E262E395200996235 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EF31888A262E3AB400996235 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		EFEEA708262BDBB200308B37 /* FitGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEEA70B262BDBB200308B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,10 +129,13 @@
 		EF318883262E395E00996235 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0FB720BE2644B2CB007BE90D /* FirstViewController.swift */,
 				EF31888A262E3AB400996235 /* SignUpViewController.swift */,
 				EF318879262E393C00996235 /* LoginViewController.swift */,
-				EF31887E262E395200996235 /* HomeViewController.swift */,
+				0F98568626483B150085C8AD /* FirstViewController.swift */,
+				0F27D7A4264DFE51009FADDF /* PurchasedViewController.swift */,
+				0F27D7A9264DFE62009FADDF /* MakeViewController.swift */,
+				0F27D7AE264E1C57009FADDF /* PostCell.swift */,
+				0F27D7B6264E1DAD009FADDF /* PlansViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -423,12 +432,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F27D7AA264DFE62009FADDF /* MakeViewController.swift in Sources */,
+				0F27D7A5264DFE51009FADDF /* PurchasedViewController.swift in Sources */,
 				EF31888B262E3AB400996235 /* SignUpViewController.swift in Sources */,
 				EFEEA70C262BDBB200308B37 /* AppDelegate.swift in Sources */,
 				EF31887A262E393C00996235 /* LoginViewController.swift in Sources */,
-				0FB720BF2644B2CB007BE90D /* FirstViewController.swift in Sources */,
+				0F27D7AF264E1C57009FADDF /* PostCell.swift in Sources */,
+				0F98568726483B150085C8AD /* FirstViewController.swift in Sources */,
 				EFEEA70E262BDBB200308B37 /* SceneDelegate.swift in Sources */,
-				EF31887F262E395200996235 /* HomeViewController.swift in Sources */,
+				0F27D7B7264E1DAD009FADDF /* PlansViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

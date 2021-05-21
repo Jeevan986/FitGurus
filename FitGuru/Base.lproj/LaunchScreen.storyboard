@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="5yL-qg-HD7">
-                                <rect key="frame" x="108.99954373718106" y="364.44064724883265" width="195.99999999999997" height="168.99999999999989"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="y5x-BO-76k">
+                                <rect key="frame" x="10" y="84" width="394" height="728"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="y5x-BO-76k" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Wzx-uE-Rbo"/>
+                            <constraint firstItem="y5x-BO-76k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="oyn-6z-ddR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y5x-BO-76k" secondAttribute="trailing" constant="10" id="pDS-V7-iVr"/>
+                            <constraint firstItem="y5x-BO-76k" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vn1-Xb-Ur4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -31,7 +36,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="598" height="498"/>
+        <image name="launch" width="722" height="728"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

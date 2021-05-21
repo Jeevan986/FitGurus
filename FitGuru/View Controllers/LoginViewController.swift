@@ -8,25 +8,17 @@
 import UIKit
 import Parse
 
-
 class LoginViewController: UIViewController {
-   
-    @IBOutlet weak var usernameTextField: UITextField!
     
+    
+    @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    
-    @IBAction func returnButton(_ sender: Any) {
-        let main = UIStoryboard(name: "Main", bundle: nil)
-        let firstViewController = main.instantiateViewController(identifier: "FirstViewController")
-        let delegate = self.view.window?.windowScene?.delegate as! SceneDelegate
-        delegate.window?.rootViewController = firstViewController
     }
     
     
@@ -41,10 +33,17 @@ class LoginViewController: UIViewController {
                 print("Error: \(String(describing: error?.localizedDescription))")
             }
         }
-        
-        
     }
     
+    
+    @IBAction func onReturn(_ sender: Any) {
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let firstViewController = main.instantiateViewController(identifier: "FirstViewController")
+        let delegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+        delegate.window?.rootViewController = firstViewController
+    }
+    
+
     /*
     // MARK: - Navigation
 
